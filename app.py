@@ -4,7 +4,7 @@ from PIL import Image
 
 from inference import MODEL_ID, THRESHOLD, load_model, looks_like_xray, predict
 
-st.set_page_config(page_title="Pediatric Chest X-ray Pneumonia Demo", page_icon="🫁", layout="centered")
+st.set_page_config(page_title="Pediatric Chest X-ray Pneumonia", page_icon="🫁", layout="centered")
 
 
 @st.cache_resource(show_spinner="Loading model from Hugging Face...")
